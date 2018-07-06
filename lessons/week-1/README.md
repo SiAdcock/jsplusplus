@@ -4,7 +4,9 @@ This week, we're going to look at Node and its module system.
 
 ## Resources
 
-Take a look at Addy Osmani's explanation of [Modern Modular JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modularjavascript). It's quite a long chapter, so pay more attention to CommonJS and ES Harmony. The first section on AMD is optional. It's an older module syntax and rarely used for new applications, but you might enjoy knowing the background of modular JS. If you choose to read the AMD section, definitely skip sections on AMD with Dojo and jQuery.
+Take a look at Addy Osmani's explanation of [Modern Modular JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modularjavascript). It's quite a long chapter, so pay more attention to **CommonJS** and **ES Harmony**. 
+
+The first section on **AMD** is optional. It's an older module syntax and rarely used for new applications, but you might enjoy knowing the background of modular JS. If you choose to read the AMD section, definitely skip sections on AMD with Dojo and jQuery.
 
 ## Exercise
 
