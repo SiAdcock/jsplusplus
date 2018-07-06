@@ -6,13 +6,11 @@ To get started, here are a few interesting resources for you to check out.
 
 ### Twitter
 
-Please follow the following people on Twitter:
-
-[**Dan Abramov**](https://twitter.com/dan_abramov) Works for Facebook on the React team. Author of state management library [Redux](https://github.com/reduxjs/redux)
-[**Ryan Florence**](https://twitter.com/ryanflorence) Contributor to [React Router](https://github.com/ReactTraining/react-router). Author of [Reach Router](https://github.com/reach/router), an accessible improvement on React Router
-[**Sean Larkin**](https://twitter.com/TheLarkInn) Works for Microsoft, [Webpack](https://webpack.js.org/) core team
-[**Rich Harris**](https://twitter.com/Rich_Harris) Former Guardian Interactives developer, now NYT. Author of [Rollup](https://rollupjs.org/), a Webpack alternative. Also [Svelte](https://svelte.technology/), a “frameworkless framework”
-[**Sarah Drasner**](https://twitter.com/sarah_edo) Works for Microsoft. Animation, SVG, accessibility guru. [VueJS](https://vuejs.org/) core team, a component-based JS rendering library
+- [**Dan Abramov**](https://twitter.com/dan_abramov) Works for Facebook on the React team. Author of state management library [Redux](https://github.com/reduxjs/redux)
+- [**Ryan Florence**](https://twitter.com/ryanflorence) Contributor to [React Router](https://github.com/ReactTraining/react-router). Author of [Reach Router](https://github.com/reach/router), an accessible improvement on React Router
+- [**Sean Larkin**](https://twitter.com/TheLarkInn) Works for Microsoft, [Webpack](https://webpack.js.org/) core team
+- [**Rich Harris**](https://twitter.com/Rich_Harris) Former Guardian Interactives developer, now NYT. Author of [Rollup](https://rollupjs.org/), a Webpack alternative. Also [Svelte](https://svelte.technology/), a “frameworkless framework”
+- [**Sarah Drasner**](https://twitter.com/sarah_edo) Works for Microsoft. Animation, SVG, accessibility guru. [VueJS](https://vuejs.org/) core team, a component-based JS rendering library
 
 ### JavaScript Weekly
 
