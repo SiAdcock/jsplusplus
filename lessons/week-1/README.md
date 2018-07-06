@@ -12,11 +12,10 @@ The first section on **AMD** is optional. It's an older module syntax and rarely
 
 We are going to create script that reads a markdown file and translates it into HTML. We are going to use Node’s built-in `fs` package to help us interact with the file system.
 
-- Create a new folder for your project
-- In that folder, initialise an NPM project with sensible defaults
+- In this folder, initialise an NPM project with sensible defaults
     - `$ npm init --yes`
-- Make a new file called index.js
-    - It’s common convention in Node projects to name your start scripts index.js. There are some practical advantages to doing this, too
+- Make a new file called `index.js`
+    - It’s common convention in Node projects to name your start scripts `index.js`. There are some practical advantages to doing this, too
 - Make a markdown file (e.g. `test.md`). Add the line:
     - `# This is a heading`
 - We are going to use [CommonJS](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailcommonjs) syntax to import dependencies into our `index.js`
