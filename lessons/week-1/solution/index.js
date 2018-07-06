@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 const markdown = fs.readFileSync('./test.md', 'utf8');
-const lines = markdown.split('\n');
-const output = lines.map(line => {
+const markdownLines = markdown.split('\n');
+const htmlLines = markdownLines.map(line => {
     if (line.startsWith('# ')) {
         return `<h1>${line.split('# ')[1]}</h1>`
     }
@@ -10,4 +10,4 @@ const output = lines.map(line => {
     return line;
 });
 
-fs.writeFileSync('./test.html', output.join('\n'));
+fs.writeFileSync('./test.html', htmlLines.join('\n'));
