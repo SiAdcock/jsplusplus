@@ -16,6 +16,7 @@ This week, we're going to extract our code into individual files called Modules.
 
 ### Importing and exporting application code
 
+- Copy your solution from week 1 into this directory
 - Rename `index.js` to `convert-sync.js`
 - Extract all the logic into a function called `convertSync(string: filename)` that receives a string, the filename of markdown file
 - The output filename should be the same as the filename of the input file (e.g. if the input file is `foo.md`, the output file should be `foo.html`)
