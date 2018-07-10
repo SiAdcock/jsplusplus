@@ -1,13 +1,11 @@
-const fs = require('fs');
+const convertSync = require('./convert-sync');
+const convert = require('./convert');
 
-const markdown = fs.readFileSync('./test.md', 'utf8');
-const markdownLines = markdown.split('\n');
-const htmlLines = markdownLines.map(line => {
-    if (line.startsWith('# ')) {
-        return `<h1>${line.split('# ')[1]}</h1>`
+//convertSync('test');
+convert('test', err => {
+    if (err) {
+        console.err(err);
     }
-
-    return line;
+    
+    console.log('File converted successfully');
 });
-
-fs.writeFileSync('./test.html', htmlLines.join('\n'));
