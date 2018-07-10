@@ -29,7 +29,10 @@ This week, we're going to extract our code into individual files called Modules.
 
 - Create a new file called `convert.js`
 - In `convert.js`, write a new function called `convert(string: filename)` that performs the same task as `convertSync()` but uses [`fs.readFile()`](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback) and [`fs.writeFile()`](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback), the asynchronous versions of the functions we were using previously.
-- Take note that the callbacks passed to each of these functions receive an error object (`err`) as the first argument. `err` will be `null` if no errors occurred when reading from or writing to the file system. Be sure to check whether an error has occurred at the top of the callback. This is a common convention in Node.js.
+- Take note that the callbacks passed to each of these functions receive an error object (`err`) as the first argument. `err` will be `null` if no errors occurred when reading from or writing to the file system
+    - Be sure to check whether an error has occurred at the top of the callback. This is a common convention in Node.js.
+    - For now, just immediately return if an error has occurred
+- If the write is successful, print "File converted successfully" to the standard output
 - In `index.js`, require `./convert` and execute this function instead of `convertSync()`
 - Run your programme and make sure it still works
     - `$ node ./index.js`
